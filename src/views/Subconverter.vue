@@ -256,6 +256,7 @@ export default {
           Surge4: "surge&ver=4",
           Quantumult: "quan",
           QuantumultX: "quanx",
+	  QuantumultX for zll: "quanxzll",
           Surfboard: "surfboard",
           Loon: "loon",
           ss: "ss",
