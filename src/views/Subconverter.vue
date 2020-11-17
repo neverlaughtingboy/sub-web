@@ -261,7 +261,7 @@ export default {
           ss: "ss",
           ssr: "ssr",
           ssd: "ssd",
-          v2ray: "v2ray"
+          v2ray: "v2ray","周路路QuantumultX":"quanxzll"
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
