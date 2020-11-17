@@ -249,6 +249,7 @@ export default {
         clientTypes: {
           "Clash新参数": "clash&new_name=true",
           "ClashR新参数": "clashr&new_name=true",
+	  "周路路QuantumultX": "quanxzll",
           Clash: "clash",
           ClashR: "clashr",
           Surge2: "surge&ver=2",
@@ -256,7 +257,6 @@ export default {
           Surge4: "surge&ver=4",
           Quantumult: "quan",
           QuantumultX: "quanx",
-	  "周路路QuantumultX": "quanxzll",
           Surfboard: "surfboard",
           Loon: "loon",
           ss: "ss",
