@@ -376,10 +376,10 @@ export default {
                 value:
                   "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/special/basic.ini"
               },
-	      {
-                label: "my自定义",
+              {
+                label: "my自定义 (与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/neverlaughtingboy/AppAssist/master/config/my.ini（github同步）"
+                  "https://raw.githubusercontent.com/neverlaughtingboy/AppAssist/master/config/my.ini"
               }
             ]
           }
