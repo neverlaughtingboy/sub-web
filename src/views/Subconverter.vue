@@ -345,56 +345,6 @@ export default {
                 label: "ACL4SSR_Online_Full_NoAuto.ini 全分组 无自动测速 重度用户使用 (与Github同步)",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
-              },
-              {
-                label: "ACL4SSR_Online_Full_AdblockPlus 全分组 重度用户使用 更多去广告 (与Github同步)",
-                value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"
-              },
-              {
-                label: "ACL4SSR_Online_Full_Netflix 全分组 重度用户使用 奈飞全量 (与Github同步)",
-                value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
-              },
-              {
-                label: "ACL4SSR 本地 默认版 分组比较全",
-                value: "config/ACL4SSR.ini"
-              },
-              {
-                label: "ACL4SSR_Mini 本地 精简版",
-                value: "config/ACL4SSR_Mini.ini"
-              },
-              {
-                label: "ACL4SSR_Mini_NoAuto.ini 本地 精简版+无自动测速",
-                value: "config/ACL4SSR_Mini_NoAuto.ini"
-              },
-              {
-                label: "ACL4SSR_Mini_Fallback.ini 本地 精简版+fallback",
-                value: "config/ACL4SSR_Mini_Fallback.ini"
-              },
-              {
-                label: "ACL4SSR_BackCN 本地 回国",
-                value: "config/ACL4SSR_BackCN.ini"
-              },
-              {
-                label: "ACL4SSR_NoApple 本地 无苹果分流",
-                value: "config/ACL4SSR_NoApple.ini"
-              },
-              {
-                label: "ACL4SSR_NoAuto 本地 无自动测速 ",
-                value: "config/ACL4SSR_NoAuto.ini"
-              },
-              {
-                label: "ACL4SSR_NoAuto_NoApple 本地 无自动测速&无苹果分流",
-                value: "config/ACL4SSR_NoAuto_NoApple.ini"
-              },
-              {
-                label: "ACL4SSR_NoMicrosoft 本地 无微软分流",
-                value: "config/ACL4SSR_NoMicrosoft.ini"
-              },
-              {
-                label: "ACL4SSR_WithGFW 本地 GFW列表",
-                value: "config/ACL4SSR_WithGFW.ini"
               }
             ]
           },
@@ -414,84 +364,6 @@ export default {
             ]
           },
           {
-            label: "customized",
-            options: [
-              {
-                label: "Maying",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/maying.ini"
-              },
-              {
-                label: "rixCloud",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/rixcloud.ini"
-              },
-              {
-                label: "Nirvana",
-                value:
-                  "https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/config/V2rayPro.ini"
-              },
-              {
-                label: "V2Pro",
-                value:
-                  "https://raw.githubusercontent.com/Mazeorz/airports/master/Clash/V2Pro.ini"
-              },
-              {
-                label: "YoYu",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/yoyu.ini"
-              },
-              {
-                label: "Ytoo",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/ytoo.ini"
-              },
-              {
-                label: "NyanCAT",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/nyancat.ini"
-              },
-              {
-                label: "Nexitally",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/nexitally.ini"
-              },
-              {
-                label: "SoCloud",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/socloud.ini"
-              },
-              {
-                label: "ARK",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/ark.ini"
-              },
-              {
-                label: "ssrCloud",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/ssrcloud.ini"
-              },
-              {
-                label: "世葵Auto",
-                value:"https://raw.githubusercontent.com/Mazeorz/airports/master/Clash/SkslaPro-auto.ini"
-              },
-              {
-                label: "世葵Balance",
-                value:"https://raw.githubusercontent.com/Mazeorz/airports/master/Clash/SkslaPro-Balance.ini"
-              },
-              {
-                label: "贼船",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/zeichuan.ini"
-              },
-              {
-                label: "布丁",
-                value:
-                  "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/customized/pud.ini"
-              }
-            ]
-          },
-          {
             label: "Special",
             options: [
               {
@@ -503,6 +375,11 @@ export default {
                 label: "Basic(仅GEOIP CN + Final)",
                 value:
                   "https://subconverter.oss-ap-southeast-1.aliyuncs.com/Rules/RemoteConfig/special/basic.ini"
+              },
+	      {
+                label: "my自定义",
+                value:
+                  "https://raw.githubusercontent.com/neverlaughtingboy/AppAssist/master/config/my.ini（github同步）"
               }
             ]
           }
