@@ -250,7 +250,6 @@ export default {
       options: {
         clientTypes: {
           "Clash新参数": "clash&new_name=true",
-          "ClashR新参数": "clashr&new_name=true",
           Clash: "clash",
           Surge3: "surge&ver=3",
           Surge4: "surge&ver=4",
@@ -258,13 +257,6 @@ export default {
           QuantumultX: "quanx",
           Surfboard: "surfboard",
           Loon: "loon",
-          SSAndroid: "sssub",
-          V2Ray: "v2ray",
-          ss: "ss",
-          ssr: "ssr",
-          ssd: "ssd",
-          ClashR: "clashr",
-          Surge2: "surge&ver=2",
         },
         customBackend: {
           "myconvert.vercel.app (vercel app提供）": "https://myconvert.vercel.app/sub?"
@@ -278,7 +270,7 @@ export default {
             options: [
               {
                 label: "不选，由接口提供方提供",
-                value: ""
+                value: "https://raw.githubusercontent.com/neverlaughtingboy/AppAssist/master/config/my.ini"
               }
             ]
           },
@@ -309,16 +301,6 @@ export default {
                 label: "ACL4SSR_Online_Full_NoAuto.ini 全分组 无自动测速 重度用户使用(与Github同步)",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
-              }
-            ]
-          },
-          {
-            label: "Special",
-            options: [
-              {
-                label: "my自定义 (与Github同步)",
-                value:
-                  "https://raw.githubusercontent.com/neverlaughtingboy/AppAssist/master/config/my.ini"
               }
             ]
           }
