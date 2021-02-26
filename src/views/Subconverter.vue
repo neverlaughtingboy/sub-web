@@ -253,10 +253,7 @@ export default {
           Clash: "clash",
           Surge3: "surge&ver=3",
           Surge4: "surge&ver=4",
-          Quantumult: "quan",
           QuantumultX: "quanx",
-          Surfboard: "surfboard",
-          Loon: "loon",
         },
         customBackend: {
           "myconvert.vercel.app (vercel app提供）": "https://myconvert.vercel.app/sub?"
