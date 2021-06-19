@@ -249,9 +249,7 @@ export default {
           "myconvert.vercel.app (vercel app提供）": "https://myconvert.vercel.app/sub?"
         },
         backendOptions: [
-          { value: "https://myconvert.vercel.app/sub?" }
-        },
-        backendOptions: [
+	  { value: "https://myconvert.vercel.app/sub?" }
         ],
         remoteConfig: [
           {
