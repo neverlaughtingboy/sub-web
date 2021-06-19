@@ -250,6 +250,8 @@ export default {
         },
         backendOptions: [
           { value: "https://myconvert.vercel.app/sub?" }
+        },
+        backendOptions: [
         ],
         remoteConfig: [
           {
@@ -362,9 +364,8 @@ export default {
     }
   },
   mounted() {
-    this.form.clientType = "clash";
+    this.form.clientType = "Surge4";
     this.form.customBackend = "https://myconvert.vercel.app/sub?";
-    this.form.remoteConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini";
     this.getBackendVersion();
   },
   methods: {
